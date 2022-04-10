@@ -1,0 +1,23 @@
+/* i {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #10B981;
+  padding: 10px;
+  color:#10B981;
+  background-color: #D1FAE5;
+  margin-top: 250px;
+}
+.signbtn{
+  background: #10B981;
+  border-radius: 8px;
+}
+.triangle-bottomright {
+  width: 201px;
+  height: 1065px;
+  border-bottom: 656px solid white;
+  border-left: 195px solid transparent;
+  position: absolute;
+  top: 13%;
+  left: 83%;
+  transform: translate(-51%, -50%);
+} */

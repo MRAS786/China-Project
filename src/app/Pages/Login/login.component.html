@@ -1,55 +1,60 @@
-<section class="ftco-section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6 text-center mb-5">
-        <h2 class="heading-section">Login #04</h2>
-      </div>
+
+<section>
+  <div class="row">
+    <div class="col-md-6">
+      <img width="100%" height="70%" src="../../../assets/Images/c0014ca487850330002101d95ad44a7b.jpg">
+      <label  class="centered text-white lbltext">Wonderful and Grateful</label>
+      <label class="centeredone text-white mt-1">Room Booking System</label>
+      <div class="triangle-bottomright "></div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-12 col-lg-10">
-        <div class="wrap d-md-flex">
-          <div class="img" style="background-image: url(images/bg-1.jpg);">
-          </div>
-          <div class="login-wrap p-4 p-md-5">
-            <div class="d-flex">
-              <div class="w-100">
-                <h3 class="mb-4">Sign In</h3>
-              </div>
-              <div class="w-100">
-                <p class="social-media d-flex justify-content-end">
-                  <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
-                  <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
-                </p>
+
+      <div class="col-md-4 mt-5 ml-3">
+        <form  class="register-form" id="register-form">
+
+            <h5 style="color:#475569" class="mt-5">Login</h5>
+            <p style="font-weight:600;font-size: 14px;color: #94A3B8;">Fill in Your Credentials</p>
+            <label for="email">Email</label>
+            <div class="form-group">
+                <input class="form-control" type="email" name="username" placeholder="Your email address" id="email" />
+            </div>
+            <label for="Password">Password</label>
+            <div class="form-group inner-addon right-addon">
+              <div class="input-group ">
+                <input name="password" [type]="showPassword ? 'text' : 'password'" class="form-control pwd-control" id="password-field" placeholder="Your Password">
+                <div>
+                  <i alt="show" class="far fa fa-eye eye-show"
+                     (click)="showPassword = !showPassword"
+                     [class.hide]="showPassword"></i>
+                  <i alt="hide" class="far fa fa-eye-slash eye-hide"
+                     (click)="showPassword = !showPassword"
+                     [class.hide]="!showPassword"></i>
+                </div>
               </div>
             </div>
-            <form action="#" class="signin-form">
-              <div class="form-group mb-3">
-                <label class="label" for="name">Username</label>
-                <input type="text" class="form-control" placeholder="Username" required>
+            <!-- <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="Your Password" id="Password" />
+            </div> -->
+            <div class="row">
+              <div class="col-md-7">
+                <input type="checkbox"> Remember Me
               </div>
-              <div class="form-group mb-3">
-                <label class="label" for="password">Password</label>
-                <input type="password" class="form-control" placeholder="Password" required>
+              <div class="col-md-5">
+                <label class="ml-5"><a routerLink="/forget">Have Issue?</a></label>
               </div>
-              <div class="form-group">
-                <button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
-              </div>
-              <div class="form-group d-md-flex">
-                <div class="w-50 text-left">
-                  <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
-                  <input type="checkbox" checked>
-                  <span class="checkmark"></span>
-                  </label>
+            </div>
+                <button class="btn btn-lg w-100 signbtn text-white">Login</button>
+                <div class="row m-2">
+                  <div class="col-md-9">
+                    <label>Don't have an account yet?</label>
+                  </div>
+                  <div class="col-md-3">
+                    <label ><a routerLink="/register" style="color: #10B981 !important;">Register</a></label>
+                  </div>
                 </div>
-                <div class="w-50 text-md-right">
-                  <a href="#">Forgot Password</a>
-                </div>
-              </div>
-            </form>
-            <p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
-          </div>
-        </div>
-      </div>
+          </form>
+
     </div>
+    <div class="col-md-2"></div>
   </div>
 </section>
+
