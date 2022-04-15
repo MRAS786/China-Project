@@ -13,6 +13,12 @@ import { ForgetComponent } from './Pages/ForgetPassword/forget.component';
 import { ResetpasswordComponent } from './Pages/ResetPassword/resetpassword.component';
 import { RegisteraccountmessageComponent } from './Pages/AccountRegisterMessage/registeraccountmessage.component';
 import { ResetpasswordmessageComponent } from './Pages/ResetPasswordMessage/resetpasswordmessage.component';
+import { TestComponent } from './Pages/test/test.component';
+import { AdminComponent } from './Pages/Master/Admin/admin.component';
+import { RoomComponent } from './Pages/Master/Room/room.component';
+import { ApplicantStatusComponent } from './Pages/Master/ApplicantStatus/applicant-status.component';
+import { UserMangementComponent } from './Pages/Master/UserMangement/user-mangement.component';
+import { ReportComponent } from './Pages/Master/Report/report.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { ResetpasswordmessageComponent } from './Pages/ResetPasswordMessage/rese
     ForgetComponent,
     ResetpasswordComponent,
     RegisteraccountmessageComponent,
-    ResetpasswordmessageComponent
+    ResetpasswordmessageComponent,
+    TestComponent,
+    AdminComponent,
+    RoomComponent,
+    ApplicantStatusComponent,
+    UserMangementComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,

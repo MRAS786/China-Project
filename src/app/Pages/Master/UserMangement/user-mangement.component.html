@@ -1,0 +1,115 @@
+<section >
+  <div class="container">
+
+    <div class="row" style="background-color:  #F1F5F9;">
+      <div class="col-md-6 float-right ">
+        <i class="fa fa-user cardfaicon" style="color: dodgerblue;"></i>
+        <span class="heading-section ml-3">User Mangement</span>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="table-wrap">
+          <table class="table table-responsive-xl bg bg-white" >
+            <thead style="color: #64748B;">
+              <tr style="background-color: #F8FAFC;;">
+                <th> <input type="checkbox" checked></th>
+                <th>User No</th>
+                <th>User Name</th>
+                <th>Display Name</th>
+                <th>Password</th>
+                <th>User Type</th>
+                <th>User Group</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="alert" role="alert">
+                <td>
+                  <label class="checkbox-wrap checkbox-primary">
+                    <input type="checkbox" checked>
+                    <span class="checkmark"></span>
+                  </label>
+                </td>
+                <td class="d-flex align-items-center">
+                  <div class="pl-3 email">
+                    <span><b>20221215</b></span>
+                  </div>
+                </td>
+                <td class=" align-items-center">	<div class=" email">
+                  <span><b>NPAC_admin1</b></span>
+
+                </div></td>
+                <td class=" align-items-center">	<div class="pl-3 email">
+                  <span><b>Apple chen</b></span>
+                </div>
+              </td>
+              <td class=" align-items-center">	<div class="pl-3 email">
+                <span><b>*********</b></span>
+              </div>
+              <td class=" align-items-center">	<div class="pl-3 email">
+                <span><b>Adminstrator</b></span>
+              </div>
+            </td>
+            <td class=" align-items-center">	<div class="pl-3 email">
+              <span><b>Admin-Dept</b></span>
+
+            </div></td>
+
+
+              </tr>
+
+            </tbody>
+
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Button trigger modal -->
+<a class="fixedButton" title="Contact Us"  data-toggle="modal" data-target="#exampleModal"
+style="cursor: pointer;">
+<div class="roundedFixedBtn"><i class="fa fa-plus"></i></div>
+</a>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">User</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+       <div class="col-md-12">
+
+           <h5><b>Department</b></h5>
+           <p><b class="formlabel">Link Event to related Department</b></p>
+           <input  class="form-control" type="text" placeholder="Adult">
+<hr>
+<h5><b>Group</b></h5>
+<p><b class="formlabel">Link Event to related Group</b></p>
+<input  class="form-control" type="text" placeholder="Select Group">
+<hr>
+<h5><b>Contact</b></h5>
+<p><b class="formlabel">Fill in Event Contact information</b></p>
+<input  class="form-control mt-2" type="text" placeholder="Full Name">
+<input  class="form-control mt-2" type="text" disabled placeholder="Full Name">
+<input  class="form-control mt-2" type="text" placeholder="Email">
+<span class="mt-2">Notes</span>
+<input  class="form-control mt-2" type="text" placeholder="Event Note">
+
+      </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success">Save and Preview</button>
+      </div>
+    </div>
+  </div>
+</div>
