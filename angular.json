@@ -30,9 +30,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
+
               "src/assets/bootstrap.min.css",
-              "src/assets/style.css"
+              "src/assets/layoutstyle.css",
+              "src/styles.css"
 
 
             ],
@@ -40,7 +41,7 @@
               "src/assets/jquery.min.js",
               "src/assets/popper.js",
               "src/assets/bootstrap.min.js",
-              "src/assets/jquery.min.js"
+              "src/assets/main.js"
             ]
           },
           "configurations": {
