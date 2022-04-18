@@ -1,2 +1,144 @@
-<p>test works!</p>
-<div class="CONTAINER"></div>
+
+<button data-toggle="modal" data-target="#exampleModal">Event</button>
+<button data-toggle="modal" data-target="#exampleModal">RepeatSetting</button>
+<!-- EventModal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+       <div class="col-md-12">
+
+           <h5><b>Event Name</b></h5>
+           <p><b class="formlabel">Fill in event Name</b></p>
+           <input  class="form-control" type="text" placeholder="Your Event Name">
+<hr>
+<h5><b>Event Time</b></h5>
+<p ><b class="formlabel">Fill in event date and time</b></p><br>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input form-control" type="text" placeholder="">
+  <input type="time" class=" form-control" placeholder="start Date" >
+  <input type="time" class=" form-control ml-1" placeholder="End Date" >
+</div>
+<hr>
+<p><b class="formlabel h5 float-left">Repeat Schedule</b></p>
+<button class="float-right">sd</button><br>
+<input type="text" class="form-control mt-2" disabled placeholder="Every THU, Every 2 Weeks,Repeat 12 Times.">
+<hr>
+<h5><b>Event Venue</b></h5>
+<p><b class="formlabel">Fill in event Venue</b></p>
+<input  class="form-control" type="text" placeholder="Your Event Venue">
+<hr>
+<h5><b>Event Label</b></h5>
+<p><b class="formlabel">Select suitable event label</b></p>
+<input  class="form-control" type="text" placeholder="Your Event Venue">
+<hr>
+<button class="btn  bg bg-light rounded"><i class="fa fa-check text-danger mr-1"></i>Regular (Outsider)</button>
+<button class="btn  bg bg-light rounded ml-2"><i class="fa fa-check text-warning mr-1"></i>Regular (Insider)</button>
+<button class="btn  bg bg-light rounded ml-2 mt-2"><i class="fa fa-check text-primary mr-1"></i>Outsider</button>
+<button class="btn  bg bg-light rounded ml-2 mt-2"><i class="fa fa-check text-success mr-1"></i>Insider</button>
+<button class="btn  bg bg-light rounded ml-2 mt-2"><i class="fa fa-check text-secondary mr-1"></i>Venue-free</button>
+      </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success">Next</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- EventModal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Repeat Setting<br><p style="font-size: medium;font-weight: 600;color: #94A3B8;">Set Repeat schedule</p></h5>
+
+        <button class="btn btn-success float-right" style="margin-left: 190px;">
+         <i class="fa fa-check"></i>
+        </button>
+        <button class="btn btn-secondary ">
+          <span class="fa fa-cross" aria-hidden="true">&times;</span>
+        </button>
+
+      </div>
+      <div class="modal-body">
+        <form>
+       <div class="col-md-12">
+
+           <h5><b style="color: #64748B;">Repeat Day</b></h5>
+           <button class="btn btn-light btn-md ml-4">S</button>
+           <button class="btn btn-light btn-md ml-3">M</button>
+           <button class="btn btn-primary btn-md ml-3">T</button>
+           <button class="btn btn-light btn-md ml-3">W</button>
+           <button class="btn btn-light btn-md ml-3">T</button>
+           <button class="btn btn-light btn-md ml-3">F</button>
+           <button class="btn btn-light btn-md ml-3">S</button>
+
+<hr>
+<div class="form-check form-check-inline mt-2">
+  <h5> <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <b style="color: #64748B;">Repeat Interval</b></h5>
+</div><br>
+<button class="btn btn-light btn-lg ml-3">2</button>
+<button class="btn btn-light btn-lg ml-5">D</button>
+<button class="btn btn-light btn-lg ">W</button>
+<button class="btn btn-light btn-lg ">M</button>
+<button class="btn btn-light btn-lg ">Y</button>
+<hr>
+<div class="form-check form-check-inline mt-2">
+  <h5> <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <b style="color: #CBD5E1;">Week Number of the month</b></h5>
+  </div><br>
+  <button class="btn btn-light btn-lg ml-3">1</button>
+<button class="btn btn-light btn-lg ml-3">2</button>
+<button class="btn btn-light btn-lg ml-3">3</button>
+<button class="btn btn-light btn-lg ml-3">4</button>
+<button class="btn btn-primary btn-lg ml-3">5</button>
+<div class="form-check form-check-inline mt-2">
+  <h5> <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <b style="color: #CBD5E1;">Day of month</b></h5>
+  <input type="date" class="ml-3 form-check-inline d-inline-block">
+  </div>
+<hr>
+<div class="form-check form-check-inline mt-2">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2"><h5><b style="color: #64748B;">Repeat Quarter</b></h5></label>
+</div>
+<br>
+<button class="btn btn-md m-1 btn-light" >All</button>
+<button class="btn btn-md m-1 btn-primary " >M1-3</button>
+<button class="btn btn-md m-1 btn-primary" >4-6</button>
+<button class="btn btn-md m-1  btn-light" >M7-9</button>
+<button class="btn btn-md m-1  btn-light" >M10-12</button>
+<hr>
+<br>
+
+<h5><b style="color: #64748B;">Ending Time</b></h5>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"><b style="color: #CBD5E1;">In</b>
+  <div class="form-group col-md-3 mt-2">
+    <input type="text" class=" form-control" placeholder="12" for="inlineRadio1">
+  </div><b style="color: #CBD5E1;">Times</b>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"><b style="color: #CBD5E1;">until</b>
+  <div class="form-group col-md-4 mt-2">
+    <input type="text" class=" form-control" placeholder="Ending Date" for="inlineRadio1">
+  </div>
+</div>
+
+      </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
