@@ -19,6 +19,7 @@ import { RoomComponent } from './Pages/Master/Room/room.component';
 import { ApplicantStatusComponent } from './Pages/Master/ApplicantStatus/applicant-status.component';
 import { UserMangementComponent } from './Pages/Master/UserMangement/user-mangement.component';
 import { ReportComponent } from './Pages/Master/Report/report.component';
+import { PermissionComponent } from './Pages/Master/Permission/permission.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ReportComponent } from './Pages/Master/Report/report.component';
     RoomComponent,
     ApplicantStatusComponent,
     UserMangementComponent,
-    ReportComponent
+    ReportComponent,
+    PermissionComponent
   ],
   imports: [
     BrowserModule,

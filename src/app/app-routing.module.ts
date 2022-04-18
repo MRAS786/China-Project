@@ -5,6 +5,7 @@ import { ForgetComponent } from './Pages/ForgetPassword/forget.component';
 import { LoginComponent } from './Pages/Login/login.component';
 import { AdminComponent } from './Pages/Master/Admin/admin.component';
 import { ApplicantStatusComponent } from './Pages/Master/ApplicantStatus/applicant-status.component';
+import { PermissionComponent } from './Pages/Master/Permission/permission.component';
 import { ReportComponent } from './Pages/Master/Report/report.component';
 import { RoomComponent } from './Pages/Master/Room/room.component';
 import { UserMangementComponent } from './Pages/Master/UserMangement/user-mangement.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
       {path:'applicantStatus',component:ApplicantStatusComponent, pathMatch:'full'},
       {path:'userMangement',component:UserMangementComponent, pathMatch:'full'},
       {path:'report',component:ReportComponent, pathMatch:'full'},
+      {path:'permission',component:PermissionComponent, pathMatch:'full'}
     ]
   },
   {path:'login',component:LoginComponent, pathMatch:'full'},
